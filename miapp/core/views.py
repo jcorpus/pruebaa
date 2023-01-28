@@ -17,7 +17,7 @@ html_base = """
  """
 
 def home(request):
-    return render(request, "core/home.html")
+    return render(request, "core/index.html")
     # return HttpResponse(html_base + """ 
     # <h2>Bienvenidos<h2/>
     # <p> Esto es la portada Portadaaaa</p> """)
